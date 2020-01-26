@@ -1,0 +1,86 @@
+@import"_variables.scss";
+
+#background-wrap{
+    bottom: 0rem;
+    left: 0rem;
+    padding-top: fixed;
+    right: 0rem;
+    position: fixed;
+    top: 0rem;
+    z-index: -1;
+  }
+  @keyframes animation{
+    0%{margin-left:100%;}
+    100%{margin-left:-50%;}
+  }
+  .cloud-one{
+    animation: animation 12s linear infinite;
+    transform: scale(.6);
+    margin-top: 5%;
+    animation-delay: none;
+  }
+  .cloud-two{
+    animation: animation 15s linear infinite;
+    transform: scale(.4);
+    margin-top: 5%;
+  }
+  .cloud-three{
+    animation: animation 16s linear infinite;
+    transform: scale(.8);
+    margin-top: 5%;
+  }
+  .cloud{
+    background-color: white;
+    border-radius: 100%;
+    height: 15rem;
+    position: relative;
+    width: 30rem;
+  }
+  .cloud:before,.cloud:after{
+    background-color: white;
+    content: '';
+    position: absolute;
+    z-index: -1;
+  }
+  .cloud:after{
+    border-radius: 10rem;
+    height: 15rem;
+    left: 5rem;
+    top: -5rem;
+    width: 10rem;
+  }
+  .cloud:before{
+    border-radius: 10rem;
+    height: 15rem;
+    right: 5rem;
+    top: -5rem;
+    width: 15rem;
+  }
+  
+  @keyframes move{
+    0%{transform: translateY(0rem) ;}
+    100%{transform: translateY(-2rem);}
+  }
+  .airplane{
+    transform: scale(.3,.3);
+    margin-top: -35rem;
+    margin-left: -10rem;
+  }
+  .airplane-image{
+    animation: move 1s infinite alternate;
+  }
+  .header{
+    margin-top: 10rem;
+    margin-left: 25%;
+    font-size: 5rem;
+    animation: word 5s infinite alternate;
+    font-family: 'Courgette', cursive;
+  }
+  .loader{
+    overflow: hidden;
+    position: fixed;
+  }
+  @keyframes word{
+    0%{transform: scale(1.1);}
+  100%{transform: scale(1.2);}
+  }
