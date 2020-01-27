@@ -103,8 +103,9 @@
 
   }
   .link:hover{
-    background-color:color(third);
+    background-color: color(third-light);
     transition: ease-in-out 1s;
+    animation-play-state: paused;
   }
   
   
