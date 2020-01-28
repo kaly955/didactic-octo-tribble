@@ -107,5 +107,8 @@
     transition: ease-in-out 1s;
     animation-play-state: paused;
   }
-  
+  .header,.airplane,.link{
+    display: flex;
+    align-items: center;
+  }
   
