@@ -1,2 +1,9 @@
 @import "_varibles.scss";
 
+$('.header-image').hover(
+    function() {
+        $('#btn').fadeIn('slow');
+    },function() {
+        $('#btn').fadeOut('slow');
+    }
+);
