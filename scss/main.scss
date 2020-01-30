@@ -1,6 +1,6 @@
 @import "_variables.scss";
 @import"_loader.scss";
-@import "_website.scss";
+
 
 html {
   margin: 0;
@@ -14,5 +14,3 @@ body {
 .loader{
   z-index: -1;
 }
-
-
