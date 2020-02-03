@@ -9,9 +9,18 @@
 <body>
     <h1 class="header-title">Australia</h1>
     <div class="header-image">
-        <img src="css/Media/Uluru.png" alt="" class="rock">
-        <img src="css/Media/fire.gif" class="fire" alt="">
+        
+        <img src="css/Media/fire.gif" class="fire" alt="" id="pop">
     </div>
+    <div class="btn"
+    <button type="button" onclick="myFunction()"><img src="css/Media/Uluru.png" class="rock"></button>
+        </div>
+        <img src="css/Media/fire.gif" alt="" id="pop" style="visibility: hidden;">
+        <script>
+        function myFunction(){
+            document.getElementById("pop").style.visibility ="visible";
+        }
+        </script>
     <h2 class="travel">Travel Places</h2>
     <div class="gallery-image">
         <img src="css/media/Beach.jpg" alt="" class="beach-image">
