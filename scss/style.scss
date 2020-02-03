@@ -15,14 +15,12 @@ body {
   z-index: -1;
 }
 .rock{
-  margin-left: 50rem;
  margin-top: -20rem;
 }
 .fire{
   visibility: hidden;
 }
 .header-title{
-  margin-left: 50rem;
   font-size: 10rem;
 }
 .gallery-image{
@@ -32,12 +30,23 @@ body {
   justify-content: center;
   align-content: space-between;
   margin-top: -90rem;
+  @include tablet{
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    background-color:red;
+    font-size: 5rem;
+    align-items: center;
+    margin-left: 5rem;
+  }
 }
 
 .travel{
   z-index: 1;
-  margin-left: 50rem;
   font-size: 10rem;
   position: absolute;
-  top: 25rem;
+  top: 30rem;
+  @include tablet{
+    font-size: 5rem;
+  }
 }
