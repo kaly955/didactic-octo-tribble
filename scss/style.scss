@@ -1,6 +1,6 @@
 @import "_variables.scss";
 @import"_loader.scss";
-@import"_splash.scss";
+
 
 html {
   margin: 0;
@@ -13,4 +13,31 @@ body {
 }
 .loader{
   z-index: -1;
+}
+.rock{
+  margin-left: 50rem;
+ margin-top: -20rem;
+}
+.fire{
+  visibility: hidden;
+}
+.header-title{
+  margin-left: 50rem;
+  font-size: 10rem;
+}
+.gallery-image{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: -90rem;
+}
+
+.travel{
+  z-index: 1;
+  margin-left: 50rem;
+  font-size: 10rem;
+  position: absolute;
+  top: 25rem;
 }
