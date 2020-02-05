@@ -1,6 +1,6 @@
 @import "_variables.scss";
 @import"_loader.scss";
-
+@import"_splash.scss";
 
 html {
   margin: 0;
@@ -13,50 +13,4 @@ body {
 }
 .loader{
   z-index: -1;
-}
-.rock{
- margin-top: -20rem;
-}
-.fire{
-  visibility: hidden;
-}
-.header-title{
-  font-size: 10rem;
-}
-.gallery-image{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  align-content: space-between;
-  margin-top: -90rem;
-  @include tablet{
-    width: 90%;
-    flex-direction: column;
-    align-items: center;
-    background-color:red;
-    font-size: 5rem;
-    align-items: center;
-    margin-left: 5rem;
-  }
-}
-
-.travel{
-  z-index: 1;
-  font-size: 10rem;
-  position: absolute;
-  top: 30rem;
-  @include tablet{
-    font-size: 5rem;
-  }
-}
-#pop{
-  visibility: hidden;
-  margin-top: 60rem;
-}
-.rock{
-  margin-top: -20rem;
-}
-.fire{
-  margin-bottom: 50rem;
 }

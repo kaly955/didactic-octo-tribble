@@ -276,4 +276,17 @@ body {
     font-size: 5rem;
   }
 }
+
+#pop {
+  visibility: hidden;
+  margin-top: 60rem;
+}
+
+.rock {
+  margin-top: -20rem;
+}
+
+.fire {
+  margin-bottom: 50rem;
+}
 /*# sourceMappingURL=style.css.map */
