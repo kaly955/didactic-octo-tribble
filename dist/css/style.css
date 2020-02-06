@@ -118,8 +118,12 @@
 }
 
 .header {
-  margin-top: 10rem;
-  margin-left: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 5rem;
   -webkit-animation: word 5s infinite alternate;
           animation: word 5s infinite alternate;
@@ -194,10 +198,30 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .link-box {
   text-decoration: none;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 html {
@@ -214,79 +238,5 @@ body {
 
 .loader {
   z-index: -1;
-}
-
-.rock {
-  margin-top: -20rem;
-}
-
-.fire {
-  visibility: hidden;
-}
-
-.header-title {
-  font-size: 10rem;
-}
-
-.gallery-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: justify;
-      align-content: space-between;
-  margin-top: -90rem;
-}
-
-@media (max-width: 900px) {
-  .gallery-image {
-    width: 90%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    background-color: red;
-    font-size: 5rem;
-    align-items: center;
-    margin-left: 5rem;
-  }
-}
-
-.travel {
-  z-index: 1;
-  font-size: 10rem;
-  position: absolute;
-  top: 30rem;
-}
-
-@media (max-width: 900px) {
-  .travel {
-    font-size: 5rem;
-  }
-}
-
-#pop {
-  visibility: hidden;
-  margin-top: 60rem;
-}
-
-.rock {
-  margin-top: -20rem;
-}
-
-.fire {
-  margin-bottom: 50rem;
 }
 /*# sourceMappingURL=style.css.map */

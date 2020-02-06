@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,IAAI,CAAA;EACA,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,KAAK;EAChB,UAAU,EAAE,UAAU;CACzB;;AACA,AAAA,aAAa,CAAA;EACV,OAAO,EAAC,IAAI;EACZ,eAAe,EAAE,MAAM;CACzB",
     "sources": [
-        "../../scss/splash.scss"
+        "../../scss/splash.scss",
+        "../../scss/_variables.scss"
     ],
     "names": [],
     "file": "splash.css"

@@ -70,8 +70,8 @@
     animation: move 1s infinite alternate;
   }
   .header{
-    margin-top: 10rem;
-    margin-left: 25%;
+    display: flex;
+    justify-content: center;
     font-size: 5rem;
     animation: word 5s infinite alternate;
     font-family: 'Courgette', cursive;
@@ -109,7 +109,9 @@
   .header,.airplane,.link{
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   .link-box{
     text-decoration: none;
   }
+  
