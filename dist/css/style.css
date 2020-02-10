@@ -222,7 +222,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 10rem;
+  font-size: 8rem;
 }
 
 @media (max-width: 900px) {
@@ -231,7 +231,7 @@ html {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .header-title {
     font-size: 2rem;
   }
@@ -247,7 +247,7 @@ html {
   font-size: 7rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .header-title-sub {
     font-size: 2rem;
   }
@@ -271,7 +271,7 @@ html {
       justify-content: space-around;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .gallery-image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -302,7 +302,7 @@ html {
   width: 45rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .beach-image {
     width: 35rem;
   }
@@ -318,7 +318,7 @@ html {
   width: 45rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .tourism-image {
     width: 35rem;
   }
@@ -334,7 +334,7 @@ html {
   width: 45rem;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 500px) {
   .surfing-image {
     width: 35rem;
   }
