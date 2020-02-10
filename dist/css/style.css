@@ -225,15 +225,15 @@ html {
   font-size: 5rem;
 }
 
-@media (max-width: 900px) {
-  .header-title {
-    font-size: 5rem;
-  }
-}
-
 @media (max-width: 500px) {
   .header-title {
     font-size: 2rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-title {
+    font-size: 5rem;
   }
 }
 
