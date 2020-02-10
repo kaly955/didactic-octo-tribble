@@ -5,7 +5,9 @@ $colors: (
   third: #AE90BB,
   third-light: #B4B5D2
 );
-$phone: 768px;
+$phone: 600px;
+$phone-max: 812px;
+$phone-min: 375px;
 $tablet: 900px;
 $laptop: 1100px;
 $desktop: 1100px;
@@ -15,7 +17,12 @@ $desktop: 1100px;
 }
 
 @mixin phone {
-  @media (max-width: #{$phone}) {
+  @media (min-width: #{$phone-min}) and (max-width: #{$phone-max}) {
+    @content;
+  }
+}
+@mixin phone {
+  @media (max-width: #{$tablet}) {
     @content;
   }
 }

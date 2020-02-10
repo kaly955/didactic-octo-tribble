@@ -223,12 +223,11 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   font-size: 10rem;
-  z-index: 1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .header-title {
-    font-size: 1rem;
+    font-size: 2rem;
   }
 }
 
@@ -245,13 +244,12 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  z-index: 1;
   font-size: 7rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .header-title-sub {
-    font-size: 5rem;
+    font-size: 2rem;
   }
 }
 
@@ -259,6 +257,10 @@ html {
   .header-title-sub {
     font-size: 8rem;
   }
+}
+
+.header-container {
+  background-color: aqua;
 }
 
 .gallery-image {
@@ -269,7 +271,7 @@ html {
       justify-content: space-around;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .gallery-image {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -300,7 +302,7 @@ html {
   width: 45rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .beach-image {
     width: 35rem;
   }
@@ -316,7 +318,7 @@ html {
   width: 45rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .tourism-image {
     width: 35rem;
   }
@@ -332,7 +334,7 @@ html {
   width: 45rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .surfing-image {
     width: 35rem;
   }
@@ -449,9 +451,6 @@ html {
 
 body {
   background-color: #D8AFBC;
-}
-
-.loader {
   z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
