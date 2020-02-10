@@ -11,21 +11,99 @@ html{
     display:flex;
     justify-content: center;
     font-size: 10rem;
+    z-index: 1;
+@include phone{
+    font-size: 1rem;
+}
+    @include tablet{
+        font-size: 15rem;
+    }
  }
  .header-title-sub{
      display: flex;
      justify-content: center;
+     z-index: 1;
+     font-size: 7rem;
+     @include phone{
+         font-size: 5rem;
+     }
+     @include tablet{
+         font-size: 8rem;
+     }
  }
 .gallery-image{
     display: flex; 
     justify-content: space-around;  
+    
+    @include phone {
+        display: flex;
+        flex-direction: column;
+    }
+    @include tablet{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 .beach-image{
-    width: 50rem;
+    width: 45rem;
+    @include phone{
+        width: 35rem;
+    }
+    @include tablet{
+        width: 75rem;
+    }
 }
 .tourism-image{
-    width: 50rem;
+    width: 45rem;
+    @include phone{
+        width: 35rem;
+    }
+    @include tablet{
+        width: 75rem;
+    }
 }
 .surfing-image{
-    width: 50rem;
+    width: 45rem;
+    @include phone{
+    width: 35rem;
+    }
+    @include tablet{
+    width: 75rem;
+    }
 }
+.slideshow{
+    overflow: hidden;
+    z-index: 0;
+    
+}
+.slideshow figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    animation: 30s slidy infinite;     
+}
+.slideshow figure img{
+    width: 20%; 
+	float: left; 
+    height:100rem;
+    @include tablet{
+        height: 80rem;
+    }
+}
+@keyframes slidy {
+    0% { left: 0%; }
+    20% { left: 0%; }
+    25% { left: -100%; }
+    45% { left: -100%; }
+    50% { left: -200%; }
+    70% { left: -200%; }
+    75% { left: -300%; }
+    95% { left: -300%; }
+    100% { left: -400%; }
+    }
+    .header-two{
+        display: flex;
+        justify-content: center;
+        font-size: 10rem;
+    }
