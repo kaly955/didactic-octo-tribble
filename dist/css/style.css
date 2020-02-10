@@ -215,11 +215,6 @@ html {
           box-sizing: border-box;
 }
 
-.first-page {
-  background-image: url("../dist/css/Media/Beach.jpg");
-  background-size: cover;
-}
-
 .header-title {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,15 +238,20 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.beach-image {
+  width: 50rem;
+}
+
+.tourism-image {
+  width: 50rem;
+}
+
+.surfing-image {
+  width: 50rem;
 }
 
 html {

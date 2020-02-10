@@ -6,11 +6,7 @@ html{
     font-size: 62.5%;
     box-sizing: border-box;
 }
-.first-page{
-    background-image: url("../dist/css/Media/Beach.jpg");
-    background-size: cover;
-    
-}
+
  .header-title{
     display:flex;
     justify-content: center;
@@ -20,9 +16,16 @@ html{
      display: flex;
      justify-content: center;
  }
- .gallery-image{
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between;
-     flex-wrap: wrap;
- }
+.gallery-image{
+    display: flex; 
+    justify-content: space-around;  
+}
+.beach-image{
+    width: 50rem;
+}
+.tourism-image{
+    width: 50rem;
+}
+.surfing-image{
+    width: 50rem;
+}
