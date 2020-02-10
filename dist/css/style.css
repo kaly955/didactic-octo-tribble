@@ -222,12 +222,12 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 8rem;
+  font-size: 5rem;
 }
 
 @media (max-width: 900px) {
   .header-title {
-    font-size: 15rem;
+    font-size: 5rem;
   }
 }
 
@@ -244,7 +244,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 7rem;
+  font-size: 4rem;
 }
 
 @media (max-width: 500px) {
@@ -255,12 +255,12 @@ html {
 
 @media (max-width: 900px) {
   .header-title-sub {
-    font-size: 8rem;
+    font-size: 5rem;
   }
 }
 
 .header-container {
-  background-color: aqua;
+  background-color: royalblue;
 }
 
 .gallery-image {
@@ -438,7 +438,7 @@ html {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  font-size: 10rem;
+  font-size: 5rem;
 }
 
 html {

@@ -10,10 +10,10 @@ html{
  .header-title{
     display:flex;
     justify-content: center;
-    font-size: 8rem;
-    
+    font-size: 5rem;
+
     @include tablet{
-        font-size: 15rem;
+        font-size: 5rem;
     }
     @include phone{
     font-size: 2rem;
@@ -22,16 +22,16 @@ html{
  .header-title-sub{
      display: flex;
      justify-content: center;
-     font-size: 7rem;
+     font-size: 4rem;
      @include phone{
          font-size: 2rem;
      }
      @include tablet{
-         font-size: 8rem;
+         font-size: 5rem;
      }
  }
  .header-container{
-    background-color: aqua;
+    background-color:royalblue;
 }
 .gallery-image{
     display: flex; 
@@ -107,6 +107,6 @@ html{
     .header-two{
         display: flex;
         justify-content: center;
-        font-size: 10rem;
+        font-size: 5rem;
     }
     
